@@ -1,0 +1,123 @@
+body {
+  background-color: #7FDBFF;
+  font-family: 'Lato', sans-serif;
+}
+
+.whole {
+  margin: auto;
+
+  height: 440px;
+  width: 280px;
+
+  overflow: hidden;
+
+  border-radius: 30px;
+  background-color: #22242d;
+  box-shadow: 0 0 3px;
+}
+
+.display {
+  margin: 10px auto;
+  height: 100px;
+  width: 260px;
+	position: relative;
+}
+
+.heading {
+	font-size: 2rem;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+.button-set {
+  width: 280px;
+  height: 400px;
+  background-color: #292d36;
+	margin: auto;
+
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -webkit-touch-callout : none
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none
+}
+
+.button-grid {
+  margin: 20px auto;
+  display: grid;
+
+  width: 100px;
+	justify-content: center;
+
+  padding-top: 10px;
+
+  grid-template-columns: auto auto auto auto;
+	grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.button {
+
+  border-radius: 25%;
+  background-color: #272b33;
+  color: white;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #fce862;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  box-shadow: 0 0 1px 1px #fce862;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.color-1 {
+	color: #26f2ce;
+  font-size: 16px;
+}
+
+.color-2 {
+	color: #f47a7a;
+  font-size: 24px;
+}
+
+/* DEBUGGER
+.debugger {
+  font-size: 12px;
+  color: #22242d;
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  right:100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.l {
+  border-bottom: 1px solid #595d66;
+} */
